@@ -11,7 +11,7 @@ export const redditToolDefinition = {
 type Args = z.infer<typeof redditToolDefinition.parameters>
 
 export const reddit: ToolFn<Args, string> = async ({ toolArgs }) => {
-    const { data } = await fetch('https://www.reddit.com/r/nba/.json').then(
+    const { data } = await fetch('https://www.reddit.com/r/science/.json').then(
         (res) => res.json()
     )
     const relevantInfo = data.children.map((child: any) => ({
