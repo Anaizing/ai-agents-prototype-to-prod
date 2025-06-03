@@ -1,4 +1,4 @@
-# ai-agents-protoy-to-production
+# ai-agents-prototype-to-production
 
 Whats up fellow nerds! This awesome project writen in typescript mostly has all the excitement of agent building blocks of ai woop woop I wrote evals to measure LLM and tool accuracy. Implemented a Retrieval Augmented Generation (RAG) pipeline and explored how structured outputs provide a predictable schema for LLM responses aka structured output. Responsibly managed costs and token limits with proper context memory management. Built better guardrails within the system with human-in-the-loop best practices.
 
