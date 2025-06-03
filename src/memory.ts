@@ -9,6 +9,7 @@ export type MessageWithMetadata = AIMessage & {
 
 type Data = {
     messages: MessageWithMetadata[]
+    summary: string
 }
 
 export const addMetadata = (message: AIMessage) => {
@@ -26,6 +27,7 @@ export const removeMetadata = (message: MessageWithMetadata) => {
 
 const defaultData: Data = {
     messages: [],
+    summary: ''
 }
 
 export const getDb = async () => {
