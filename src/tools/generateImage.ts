@@ -7,11 +7,10 @@ export const generateImageToolDefinition = {
     parameters: z.object({
         prompt: z
             .string()
-            .describe(
-                `prompt for the image. Be sure to consider the user's original message when making the prompt. If you are unsure, then as the user to provide more details.`
-            ),
+            .describe(`prompt for the image. Be sure to consider the user's original message when making the prompt. If you are unsure, then as the user to provide more details.`),
     }),
-    description: 'generate an image',
+    description:
+        'use this tool wiath a prompt to generate or take a photo of anything',
 }
 
 type Args = z.infer<typeof generateImageToolDefinition.parameters>
@@ -29,4 +28,3 @@ export const generateImage: ToolFn<Args, string> = async ({
 
     return response.data[0].url!
 }
-

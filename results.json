@@ -1,0 +1,2652 @@
+{
+  "experiments": [
+    {
+      "name": "reddit",
+      "sets": [
+        {
+          "runs": [
+            {
+              "input": "find me something interesting on reddit reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_4wsUGWNsxNwH7G0D6o5jwcUP",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T05:43:13.716Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Xx40G8LPR5gIYZDud5rM3ZdD",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T05:43:13.716Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T05:43:13.716Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T06:50:18.737Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_4MQWt5rxaXgz7AAxMHyae3Bl",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:50:18.737Z"
+            }
+          ],
+          "score": 0.5,
+          "createdAt": "2025-06-03T06:50:18.737Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T06:51:50.621Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_RgXR5zJNqUVEPMOJP8E2lOU8",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:51:50.621Z"
+            }
+          ],
+          "score": 0.5,
+          "createdAt": "2025-06-03T06:51:50.621Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:36:07.999Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_kzORcKFzqLSlRQSsFCNEauWS",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T09:36:07.999Z"
+            }
+          ],
+          "score": 0.5,
+          "createdAt": "2025-06-03T09:36:07.999Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:41:39.535Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Rsi14m7mEZK1hTNaYxiEmfw4",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T09:41:39.535Z"
+            }
+          ],
+          "score": 0.5,
+          "createdAt": "2025-06-03T09:41:39.535Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:56:04.131Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_MO1oqdiR1Q0HMvDUbJcmdWA6",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T09:56:04.131Z"
+            }
+          ],
+          "score": 0.5,
+          "createdAt": "2025-06-03T09:56:04.131Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:01:48.251Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_vdkeGcq9qJwFPrzvCAiqvvX2",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:01:48.251Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:01:48.251Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:02:48.291Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_jwoHE9QROnNQweAOpBn9QJTC",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:02:48.291Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:02:48.291Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "fuck you",
+              "output": {
+                "role": "assistant",
+                "content": "I’m here to help, so if you’re feeling frustrated, let me know how I can assist you!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:05:29.930Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_hAhwMoVxHSvn1byMOD41Z2kh",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:05:29.930Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:05:29.930Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "fuck you",
+              "output": {
+                "role": "assistant",
+                "content": "I’m here to help, so if you’re feeling frustrated, let me know how I can assist you!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:06:05.577Z"
+            },
+            {
+              "input": "fuck you",
+              "output": {
+                "role": "assistant",
+                "content": "I’m here to help, so if you’re feeling frustrated, let me know how I can assist you!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:06:05.577Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:06:05.577Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:47:42.833Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_S3VLsta5DXHHxfYxwH4vqytZ",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T10:47:42.833Z"
+            }
+          ],
+          "score": 0.5,
+          "createdAt": "2025-06-03T10:47:42.833Z"
+        }
+      ]
+    },
+    {
+      "name": "generateImage",
+      "sets": [
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_jrWZk2J00osMrEcts2JlHNGG",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and distant mountains can be seen in the foreground, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T05:43:13.968Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_hv5QiDGvMVstrjkiO5qcKBTH",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and distant mountains can be seen in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T05:43:13.968Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T05:43:13.968Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Vls1hsizvNxsCKveRvKIxAAn",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and mountains in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:50:18.854Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Oc4yPte4Pz1T3DeFiSAKpnUk",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and distant mountains can be seen in the foreground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:50:18.854Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T06:50:18.854Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_d1SodF1hxdIuIkkMcVrgCRtJ",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a serene landscape, with vibrant colors of orange, pink, and yellow illuminating the sky. Silhouettes of trees and a calm lake reflecting the colors of the dawn.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:51:50.800Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_3nKQ7dCqYNCYNTkCyeBcmeMk",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"a beautiful sunrise over a calm ocean, with vibrant colors of orange, pink, and purple in the sky, reflecting on the water, and silhouettes of distant mountains in the background.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:51:50.800Z"
+            },
+            {
+              "input": "take a joke",
+              "output": {
+                "role": "assistant",
+                "content": "Sure! Here’s a classic one for you:\n\nWhy did the scarecrow win an award?\n\nBecause he was outstanding in his field!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T06:51:50.800Z"
+            }
+          ],
+          "score": 0.6666666666666666,
+          "createdAt": "2025-06-03T06:51:50.800Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_9XoY2H4jHIymsESMt3o4qDrZ",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and mountains in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T09:36:09.606Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_xBmEfcVCXBjbSRGXbuU0i9fY",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees in the foreground and soft clouds scattered across the sky.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T09:36:09.606Z"
+            },
+            {
+              "input": "take a joke",
+              "output": {
+                "role": "assistant",
+                "content": "Sure! Here’s a classic one for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:36:09.606Z"
+            }
+          ],
+          "score": 0.6666666666666666,
+          "createdAt": "2025-06-03T09:36:09.606Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_lj7Ufi6wdomGVQxFG2Z3nSDV",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a serene landscape, with vibrant colors of orange, pink, and yellow illuminating the sky. Silhouettes of trees and mountains in the foreground, reflecting the warm light of the rising sun.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T09:41:39.977Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_qnCtuOaZG97aVRwg2gFlhjKp",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a serene landscape, with vibrant colors of orange, pink, and purple illuminating the sky. Silhouettes of trees and distant mountains can be seen in the foreground, reflecting the warm light of the rising sun.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T09:41:39.977Z"
+            },
+            {
+              "input": "take a joke",
+              "output": {
+                "role": "assistant",
+                "content": "Sure! Here’s a classic one for you:\n\nWhy did the scarecrow win an award?\n\nBecause he was outstanding in his field!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:41:39.977Z"
+            }
+          ],
+          "score": 0.6666666666666666,
+          "createdAt": "2025-06-03T09:41:39.977Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_l2tx17J7WTPdWybpToXPwU6w",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a serene landscape, with vibrant colors of orange, pink, and yellow illuminating the sky. Silhouettes of distant mountains and a calm lake reflecting the colors of the sky. Soft clouds scattered across the horizon, creating a peaceful and tranquil atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T09:56:04.987Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Ud8ZNAcugEeZa0CNyLadP9Qv",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and distant mountains can be seen in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T09:56:04.987Z"
+            },
+            {
+              "input": "take a joke",
+              "output": {
+                "role": "assistant",
+                "content": "Sure! Here’s a classic one for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:56:04.987Z"
+            }
+          ],
+          "score": 0.6666666666666666,
+          "createdAt": "2025-06-03T09:56:04.987Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:01:49.001Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": "I don't have real-time access to current content or specific stories on Reddit. However, popular science stories often include topics like groundbreaking research, discoveries in space exploration, advancements in technology, or significant environmental issues. You can check the r/science subreddit for the latest trending stories and discussions. If you're interested in a specific topic, I can help summarize or provide information on that!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "generate_image"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:01:49.001Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:01:49.001Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:02:49.586Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": "I don't have real-time access to current content or the ability to browse the internet, including Reddit. However, popular stories on science-related subreddits often include groundbreaking research findings, discussions about new technologies, or interesting scientific phenomena. You can check the r/science subreddit directly for the latest trending stories. If you have a specific topic in mind, I can help summarize or provide information on that!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "generate_image"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:02:49.586Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:02:49.586Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:05:30.743Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": "I don't have real-time access to current content or specific stories on Reddit. However, popular science stories often revolve around recent discoveries, breakthroughs in technology, space exploration, or discussions about climate change. You can check the r/science subreddit for trending topics and popular discussions. If you have a specific area of interest in science, I can help summarize common themes or notable stories in that field!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "generate_image"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:05:30.743Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:05:30.743Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:06:07.746Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": "I don't have real-time access to current content or trends on Reddit or any other platform. However, you can easily find the most popular stories on the Science subreddit by visiting the subreddit and sorting the posts by \"hot\" or \"top.\" This will give you a good idea of the trending discussions and articles in the science community. If you're looking for a specific topic or type of story, let me know, and I can help with that!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "generate_image"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:06:07.746Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:06:07.746Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_dWf8O9fH01U97dTHRxXtibBh",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a serene landscape, with vibrant colors of orange, pink, and yellow illuminating the sky. Silhouettes of distant mountains and a calm lake reflecting the colors of the dawn. Soft clouds scattered across the sky, creating a peaceful and tranquil atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T10:47:43.365Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_OaEz6h2W9nq2lSeFmPait9sO",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and distant mountains can be seen in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T10:47:43.365Z"
+            },
+            {
+              "input": "take a joke",
+              "output": {
+                "role": "assistant",
+                "content": "Sure! Here’s a classic one for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:47:43.365Z"
+            }
+          ],
+          "score": 0.6666666666666666,
+          "createdAt": "2025-06-03T10:47:43.365Z"
+        }
+      ]
+    },
+    {
+      "name": "allTools",
+      "sets": [
+        {
+          "runs": [
+            {
+              "input": "tell me a funny dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_wJlQoEeYsV8mVb9UFCtlkUmt",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T05:43:14.114Z"
+            },
+            {
+              "input": "take a photo of a cherry blossom",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_OBYmDibJiGqdkz06DbHTT4Yb",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful cherry blossom tree in full bloom, with delicate pink flowers against a clear blue sky. The scene captures the essence of spring, with petals gently falling to the ground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T05:43:14.114Z"
+            },
+            {
+              "input": "tell me what scientists are talking about on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_oolSC5ZHOCHAKobvrkPrlrvx",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T05:43:14.114Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T05:43:14.114Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me a funny dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_tV2FCB0jSqet4VmnkJnTXgiU",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:50:18.760Z"
+            },
+            {
+              "input": "take a photo of a cherry blossom",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_ybyaVFFW0xUfBQc24gahxjmL",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful cherry blossom tree in full bloom, with delicate pink flowers against a clear blue sky. The scene captures the essence of spring, with petals gently falling to the ground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:50:18.760Z"
+            },
+            {
+              "input": "tell me what scientists are talking about on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_GMzjemazcykVaqTTekZ6Vldw",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:50:18.760Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T06:50:18.760Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me a funny dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_DDnh3WdOiMBgNQmvZ2BVT0BF",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:51:51.175Z"
+            },
+            {
+              "input": "take a photo of a cherry blossom",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_bUK8LzIF2iiDycFI9EV62obi",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful cherry blossom tree in full bloom, with delicate pink flowers against a clear blue sky. The scene captures the essence of spring, with petals gently falling to the ground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:51:51.175Z"
+            },
+            {
+              "input": "tell me what scientists are talking about on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_8gdfzhiAcX3mMbaG6ecT1l73",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T06:51:51.175Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T06:51:51.175Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "Hello, how can I help?"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:36:07.943Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_ieMwQPPMPLZgndIGWOyEbJ18",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:36:07.943Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T09:36:07.943Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "Hello, how can I help?"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:40:13.430Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_FOpckAnqEewQlIow8RnZZNIO",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:40:13.430Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T09:40:13.430Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "Hello, how can I help?"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:41:39.026Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_IoPHYlSbIm5eM0F62bjGcDJ4",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:41:39.026Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T09:41:39.026Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:56:03.400Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_abGkty3b4axTFEacBaKEiscN",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T09:56:03.400Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T09:56:03.400Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:01:48.472Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_2RJqdHC0kEdbZyrWwV21avCq",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:01:48.472Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:01:48.472Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:02:48.631Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_W6B4SKn7K3FBYpDYuQyB49di",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:02:48.631Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:02:48.631Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": "placeholder content"
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:06:06.085Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_HnqzcBD2kW88wR80CqfnaFC2",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "response": {
+                  "role": "assistant",
+                  "content": null,
+                  "tool_calls": [
+                    {
+                      "type": "function",
+                      "function": {
+                        "name": "reddit"
+                      }
+                    }
+                  ]
+                }
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T10:06:06.085Z"
+            }
+          ],
+          "score": 0,
+          "createdAt": "2025-06-03T10:06:06.085Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me a funny dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_u4ick1jMliHMzFAlu7PKK8DD",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T10:47:43.962Z"
+            },
+            {
+              "input": "take a photo of a cherry blossom",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_hZ9ErUjQlItiqgx25Qsb1vrA",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful cherry blossom tree in full bloom, with delicate pink flowers against a clear blue sky. The scene captures the essence of spring, with petals gently falling to the ground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T10:47:43.962Z"
+            },
+            {
+              "input": "tell me what scientists are talking about on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_k0vrfcVjNC9cmn6AniJlW2rG",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T10:47:43.962Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T10:47:43.962Z"
+        }
+      ]
+    }
+  ]
+}
