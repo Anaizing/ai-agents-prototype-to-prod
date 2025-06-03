@@ -1,5 +1,6 @@
 # ai-agents-protoy-to-production
 
+Whats up fellow nerds! This awesome project writen in typescript mostly has all the excitement of agent building blocks of ai woop woop I wrote evals to measure LLM and tool accuracy. Implemented a Retrieval Augmented Generation (RAG) pipeline and explored how structured outputs provide a predictable schema for LLM responses aka structured output. Responsibly managed costs and token limits with proper context memory management. Built better guardrails within the system with human-in-the-loop best practices.
 
 ## openai setup
 first add a dotenv file in your project and grab a OPENAI_API_KEY key from openai
@@ -39,3 +40,5 @@ we will ingest our data into our vector DB
 UPSTASH_VECTOR_REST_URL=[yours here]
 UPSTASH_VECTOR_REST_TOKEN=[yours here]
 ```
+
+for a full tutorial jump on [frontendmasters](https://frontendmasters.com/courses/production-ai/) where scott moss breaks down all the important building blocks of ai
