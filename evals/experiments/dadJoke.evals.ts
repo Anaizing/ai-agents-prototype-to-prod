@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { runEval } from '../evalTools'
 import { runLLM } from '../../src/llm'
 import { ToolCallMatch } from '../scorers'
@@ -20,6 +21,14 @@ runEval('dadJoke', {
             tools: [dadJokeToolDefinition],
         }),
     data: [
+        {
+            input: 'tell me a funny dad joke',
+            expected: createToolCallMessage(dadJokeToolDefinition.name),// EXPECTED has to match the llm's return type / shape type
+        },
+        {
+            input: 'tell me a ridiculous dad joke',
+            expected: createToolCallMessage(dadJokeToolDefinition.name),// EXPECTED has to match the llm's return type / shape type
+        },
         {
             input: 'tell me a funny dad joke',
             expected: createToolCallMessage(dadJokeToolDefinition.name),// EXPECTED has to match the llm's return type / shape type

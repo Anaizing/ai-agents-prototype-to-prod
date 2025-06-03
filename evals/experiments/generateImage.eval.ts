@@ -30,7 +30,7 @@ runEval('generateImage', {
             expected: createToolCallMessage(generateImageToolDefinition.name),// EXPECTED has to match the llm's return type / shape type
         },
         {
-            input: 'take a joke', // SHOULD FAIL EVAL on generateImage
+            input: 'show me a sunrise', // 
             expected: createToolCallMessage(generateImageToolDefinition.name),// EXPECTED has to match the llm's return type / shape type
         },
     ],

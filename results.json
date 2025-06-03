@@ -764,6 +764,146 @@
           ],
           "score": 0.5,
           "createdAt": "2025-06-03T10:47:42.833Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:15.593Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Z0gBQtgMQaLswj5X0Zpf6uJV",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:15.593Z"
+            }
+          ],
+          "score": 0.5,
+          "createdAt": "2025-06-03T12:44:15.593Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "hi",
+              "output": {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:41.850Z"
+            },
+            {
+              "input": "tell me the most popular story on science reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_ImfL4RHa7hGKeKcQXmCpMF0D",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:41.850Z"
+            }
+          ],
+          "score": 0.5,
+          "createdAt": "2025-06-03T12:44:41.850Z"
         }
       ]
     },
@@ -1696,6 +1836,464 @@
           ],
           "score": 0.6666666666666666,
           "createdAt": "2025-06-03T10:47:43.365Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_pge7cQnhL9sQiWTmoM675him",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a serene landscape, with vibrant colors of orange, pink, and yellow illuminating the sky. Silhouettes of distant mountains and a calm lake reflecting the colors of the dawn. Soft clouds scattered across the sky, creating a peaceful and tranquil atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:32:03.417Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_BnEjG3gX9mrQmcZQnGXVyidq",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant colors of orange, pink, and purple reflecting on the water. Silhouettes of trees and mountains in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:32:03.417Z"
+            },
+            {
+              "input": "take a joke",
+              "output": {
+                "role": "assistant",
+                "content": "Sure! Here’s a classic one for you:\n\nWhy don't scientists trust atoms?\n\nBecause they make up everything!",
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 0
+                }
+              ],
+              "createdAt": "2025-06-03T12:32:03.417Z"
+            }
+          ],
+          "score": 0.6666666666666666,
+          "createdAt": "2025-06-03T12:32:03.417Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_FY4edAmGiTadkRmNJzAvCmnD",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and mountains in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:39:22.643Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_KSG9JqsDNdXz9DH8op1WPyaH",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees in the foreground and soft clouds scattered across the sky.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:39:22.643Z"
+            },
+            {
+              "input": "show me a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_BYKzVnjRvwlnRiN8bA0e7N2m",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and mountains in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:39:22.643Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T12:39:22.643Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_gjTLUGbVdfMTY23mIfjDglxn",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a serene landscape, with vibrant colors of orange, pink, and yellow illuminating the sky. Silhouettes of trees and mountains in the foreground, reflecting the warm light of the sun as it rises above the horizon.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:19.050Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_3pVl2nHQAQPvTFJPDJhgR1bs",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water's surface. Silhouettes of trees in the foreground and soft clouds scattered across the sky.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:19.050Z"
+            },
+            {
+              "input": "show me a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Y1H00CivZ39VQwSl4lj8wCLo",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees line the shore, and a few fluffy clouds are scattered across the sky.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:19.050Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T12:44:19.050Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "generate an image of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_QkvJ4u7zJzGuQoaWeSnvS84O",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water. Silhouettes of trees and distant mountains can be seen in the foreground, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:43.928Z"
+            },
+            {
+              "input": "take a photo of a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_svbZ6SIuBHNCs71Psc9wtsoV",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water's surface. Silhouettes of trees and distant mountains can be seen in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:43.928Z"
+            },
+            {
+              "input": "show me a sunrise",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_iRhihvfkMEUyoZewuoLwZiO9",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful sunrise over a calm lake, with vibrant orange and pink hues in the sky, reflecting on the water's surface. Silhouettes of trees and mountains in the background, creating a serene and peaceful atmosphere.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:43.928Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T12:44:43.928Z"
         }
       ]
     },
@@ -2645,6 +3243,240 @@
           ],
           "score": 1,
           "createdAt": "2025-06-03T10:47:43.962Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me a funny dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Rro0rbP8hIWMyTezEoYfzHkR",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:16.094Z"
+            },
+            {
+              "input": "take a photo of a cherry blossom",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_DxD73HidFEum9HvqNhU2edrr",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A beautiful cherry blossom tree in full bloom, with delicate pink flowers against a clear blue sky. The scene captures the essence of spring, with petals gently falling to the ground.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:16.094Z"
+            },
+            {
+              "input": "tell me what scientists are talking about on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_y9UJ1TmBT8MlCwdcecY8mhe4",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:16.094Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T12:44:16.094Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "tell me a funny dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_fpN3ZIVL6WqhsU0Sp4ARIXve",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:45.192Z"
+            },
+            {
+              "input": "take a photo of a cherry blossom",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_6GVtFSKBnFa0uTRJTbB3W31i",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"a beautiful cherry blossom tree in full bloom, with delicate pink flowers against a clear blue sky, capturing the essence of spring.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:45.192Z"
+            },
+            {
+              "input": "tell me what scientists are talking about on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_EljHcK1qFjq9W9QwqkqWYFo9",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "type": "function",
+                    "function": {
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-06-03T12:44:45.192Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-06-03T12:44:45.192Z"
         }
       ]
     }
